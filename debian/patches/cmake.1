@@ -1,0 +1,8 @@
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -16,3 +16,5 @@
+ if(MPI_FOUND)
+   target_link_libraries(HPhi ${MPI_C_LIBRARIES})
+ endif(MPI_FOUND)
++install(TARGETS HPhi RUNTIME DESTINATION bin)
++
