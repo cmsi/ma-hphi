@@ -8,7 +8,7 @@ Homepage: https://github.com/QLMS/Hphi
 
 Package: hphi
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends} mpi-default-bin
 Description: Numerical solver package for quantum lattice models
  A numerical solver package for a wide range of quantum lattice
  models including Hubbard-type itinerant electron hamiltonians,

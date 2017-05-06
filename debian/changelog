@@ -1,4 +1,11 @@
-hphi (1.1.1-1) UNRELEASED; urgency=low
+hphi (2.0.0-1) unstable; urgency=low
+
+  * New upstream (2.0.0)
+  * Added support for Jessie
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Tue, 6 May 2017 14:55:38 +0900
+
+hphi (1.1.1-1) unstable; urgency=low
 
   * Initial release for 1.1.1
 
