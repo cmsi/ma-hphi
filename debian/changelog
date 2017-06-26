@@ -1,6 +1,7 @@
 hphi (2.0.1-1) unstable; urgency=low
 
   * New upstream (2.0.1)
+  * Moved tools (corplot and fourier) into /usr/share/hphi/tool
 
  -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Sun, 25 Jun 2017 16:04:59 +0900
 
