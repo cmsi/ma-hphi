@@ -4,8 +4,9 @@
 
 1. ソースファイルの準備 (ホスト上で)
 
+        VERSION=2.0.2
         cd $HOME/vagrant/data/src
-        wget https://github.com/QLMS/HPhi/releases/download/v2.0.1/HPhi-2.0.1.tar.gz
-	tar zxvf HPhi-2.0.1.tar.gz
-	mv -f HPhi-2.0.1 hphi_2.0.1
-	tar zcvf hphi_2.0.1.orig.tar.gz hphi_2.0.1
+        wget https://github.com/QLMS/HPhi/releases/download/v$VERSION/HPhi-$VERSION.tar.gz
+	tar zxvf HPhi-$VERSION.tar.gz
+	mv -f HPhi-$VERSION hphi_$VERSION
+	tar zcvf hphi_$VERSION.orig.tar.gz hphi_$VERSION
