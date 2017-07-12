@@ -1,3 +1,10 @@
+hphi (2.0.2-1) unstable; urgency=low
+
+  * New upstream (2.0.2)
+  * Using static link instead of shared libraries
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Wed, 12 Jul 2017 15:17:44 +0900
+
 hphi (2.0.1-1) unstable; urgency=low
 
   * New upstream (2.0.1)
