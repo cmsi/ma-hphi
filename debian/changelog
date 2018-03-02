@@ -1,3 +1,9 @@
+hphi (3.0.0-1) unstable; urgency=low
+
+  * New upstream (3.0.0)
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Fri, 02 Mar 2018 11:14:49 +0900
+
 hphi (2.0.4-1) unstable; urgency=low
 
   * New upstream (2.0.4)

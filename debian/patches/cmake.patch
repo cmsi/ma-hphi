@@ -1,9 +1,9 @@
 --- a/src/komega/CMakeLists.txt
 +++ b/src/komega/CMakeLists.txt
 @@ -16,4 +16,3 @@
- if(MPI_FOUND)
+ if(MPI_Fortran_FOUND)
    target_link_libraries(komega ${MPI_Fortran_LIBRARIES})
- endif(MPI_FOUND)
+ endif(MPI_Fortran_FOUND)
 -install(TARGETS komega ARCHIVE DESTINATION lib LIBRARY DESTINATION lib RUNTIME DESTINATION bin)
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
