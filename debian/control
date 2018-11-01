@@ -4,17 +4,16 @@ Priority: extra
 Maintainer: Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
 Build-Depends: debhelper (>= 8.0.0), autotools-dev, mpi-default-dev, liblapack-dev
 Standards-Version: 3.9.3
-Homepage: https://github.com/QLMS/Hphi
+Homepage: http://issp-center-dev.github.io/HPhi
 
 Package: hphi
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends} mpi-default-bin
 Description: Numerical solver package for quantum lattice models
- A numerical solver package for a wide range of quantum lattice models
- including Hubbard-type itinerant electron hamiltonians, quantum spin
- models, and Kondo-type hamiltonians for itinerant electrons coupled
- with quantum spins. The Lanczos algorithm for finding ground states
- and newly developed Lanczos-based algorithm for finite-temperature
- properties of these models are implemented for parallel computing
- (hybrid parallelization with OpenMP and MPI). A broad spectrum of
- users including experimental researchers is cordially welcome.
+ An exact diagonalization package for a wide range of quantum lattice
+ models (e.g. multi-orbital Hubbard model, Heisenberg model, Kondo
+ lattice model). Hhpi also supports the massively parallel computations
+ The Lanczos algorithm for obtaining the ground state and thermal pure
+ quantum state method for finite-temperature calculations are implemented.
+ In addition, dynamical Green's functions can be calculated using Komega,
+ which is a library of the shifted Krylov subspace method.
