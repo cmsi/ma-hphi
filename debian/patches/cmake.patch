@@ -23,7 +23,7 @@
  target_link_libraries(greenr2k key2lower ${LAPACK_LIBRARIES})
  
 -install(TARGETS greenr2k RUNTIME DESTINATION bin)
-+install(TARGETS greenr2k RUNTIME DESTINATION share/hphi/tool)
++install(TARGETS greenr2k cTPQ RUNTIME DESTINATION share/hphi/tool)
  #
  # Scripts
  #
