@@ -1,3 +1,10 @@
+hphi (3.3.0-1) unstable; urgency=low
+
+  * New upstream version 3.3.0
+  * Add support for Buster, Xenial, Bionic
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Sat, 07 Sep 2019 16:15:46 +0900
+
 hphi (3.2.0-1) unstable; urgency=low
 
   * New upstream (3.2.0)
