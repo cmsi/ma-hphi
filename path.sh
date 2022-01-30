@@ -15,7 +15,11 @@ if [ $(lsb_release -s -i) = 'Debian' -o $(lsb_release -s -i) = 'Ubuntu' ]; then
     DATA_DIR="$HOME/malive/data"
   fi
   BUILD_DIR="$SCRIPT_DIR/build"
-  TARGET_DIR="$DATA_DIR/pkg/$(lsb_release -s -c)"
+  if [ $(dpkg --print-architecture) = 'arm64' ]; then
+    TARGET_DIR="$DATA_DIR/pkg-arm64/$(lsb_release -s -c)"
+  else
+    TARGET_DIR="$DATA_DIR/pkg/$(lsb_release -s -c)"
+  fi
   SOURCE_DIR="$DATA_DIR/src"
   echo "BUILD_DIR: $BUILD_DIR"
   echo "TARGET_DIR: $TARGET_DIR"
