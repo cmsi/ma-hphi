@@ -1,4 +1,7 @@
-build/debian/.debhelper
-build/debian/files
-build/debian/*.substvars
-build/debian/stamp-*
+build
+*.buildinfo
+*.changes
+*.deb
+*.debian.tar.xz
+*.dsc
+*.orig.tar.gz
