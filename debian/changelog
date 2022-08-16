@@ -1,6 +1,7 @@
 hphi (3.5.1-1) unstable; urgency=low
 
   * New upstream version 3.5.1
+  * https://github.com/issp-center-dev/HPhi/pull/135
 
  -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Tue, 16 Aug 2022 20:34:22 +0900
 
